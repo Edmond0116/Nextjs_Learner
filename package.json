@@ -9,10 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "date-fns": "^2.30.0",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
+    "gray-matter": "^4.0.3",
+    "hast-util-from-html": "^2.0.1",
     "next": "13.4.19",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "rehype-react": "^8.0.0",
+    "remark": "^15.0.1",
+    "remark-html": "^15.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3"
   }
 }
